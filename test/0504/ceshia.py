@@ -9,5 +9,9 @@ class Test():
     def des(self):
         print('你的儿子多大年纪了？{}岁'.format(self.age))
 
+    def jieshao(self):
+        print('#' * 10)
+
 t = Test(18,'dada')
 t.des()
+
