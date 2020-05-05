@@ -12,6 +12,10 @@ class Test():
     def jieshao(self):
         print('#' * 10)
 
+    def jieshu(self):
+        print('结束了,heihie')
+
 t = Test(18,'dada')
 t.des()
+t.jieshu()
 
